@@ -7,11 +7,11 @@ class Animal {
 get species(){
 return this._species;	
 }
-}
+
 makesound(){
 	console.log(`The ${this.species}makes a sound`);
 }
-
+}
 class Dog extends Animal {
 	constructor(species){
 		super(species);
