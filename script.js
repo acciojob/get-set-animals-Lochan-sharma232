@@ -9,7 +9,7 @@ return this._species;
 }
 
 makesound(){
-	console.log(`The ${this.species}makes a sound`);
+	console.log(`The ${this._species}makes a sound`);
 }
 }
 class Dog extends Animal {
