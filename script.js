@@ -1,8 +1,7 @@
 //complete this code
 class Animal {
 	constructor(species)
-	
-}
+	}
 get species(){
 return 'The ${this.species} makes a sound';	
 }
