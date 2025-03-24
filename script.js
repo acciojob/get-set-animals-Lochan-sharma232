@@ -1,7 +1,18 @@
 //complete this code
-class Animal {}
+class Animal {
+	constructor(species)
+	
+}
+get species(){
+return The ${this.species} makes a sound;	
+}
+makesound(){
+	console.log(`The ${species} makes a sound');
+}
 
-class Dog extends Animal {}
+class Dog extends Animal {
+
+}
 
 class Cat extends Animal {}
 
